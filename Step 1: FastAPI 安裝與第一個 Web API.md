@@ -38,10 +38,15 @@ def read_root():
 
 ## 1.5 執行 FastAPI Server
 
+> startup uvicorn
 ```
 uvicorn main:app --reload
 ```
 
+> shutdown uvicorn
+```
+sudo lsof -t -i tcp:8000 | xargs kill -9
+```
 ## 1.6  push to github 
 * git config --global user.name = "My Name"
 * git config --global user.email = "email@example.com"
