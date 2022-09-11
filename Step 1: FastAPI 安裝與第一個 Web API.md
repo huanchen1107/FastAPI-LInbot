@@ -43,8 +43,12 @@ uvicorn main:app --reload
 ```
 
 ## 1.5  push to github 
-git config --global user.name = "My Name"
-git config --global user.email = "email@example.com"
-git remote add origin https://github.com/huanchen1107/FastAPI-LInbot.git
-git branch -M main
-git push -u origin main
+* git config --global user.name = "My Name"
+
+* git config --global user.email = "email@example.com"
+
+* git remote add origin https://github.com/huanchen1107/FastAPI-LInbot.git
+
+* git branch -M main
+
+* git push -u origin main
