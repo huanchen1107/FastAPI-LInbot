@@ -38,8 +38,14 @@ def read_root():
 
 ## 1.4 執行 FastAPI Server
 
+> startup
 ```
 uvicorn main:app --reload
+
+```
+> shutdown 
+```
+sudo lsof -t -i tcp:8000 | xargs kill -9
 ```
 
 ## 1.5  push to github 
